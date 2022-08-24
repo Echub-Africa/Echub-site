@@ -90,15 +90,18 @@ footer{
     /* margin-top: 40px; */
     
 }
+footer a{
+    color: white;
+}
 .foot{
     display: flex;
 
 
 }
 .foot >div{
-    border-right: 1px solid white;
+    border-right: 5px solid white;
     
-   min-height: 220px;
+   min-height: 270px;
   
    
 }
