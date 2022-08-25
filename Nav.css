@@ -235,6 +235,8 @@ footer a{
     .search input{
         width: 50%;
         margin-left: 15px;
+        padding-left: 7px;
+        font-size: 19px;
         
     }
     footer li {
