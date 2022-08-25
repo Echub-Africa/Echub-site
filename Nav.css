@@ -16,6 +16,7 @@ body{
     justify-content: space-between;
     align-items: center;
     color: black;
+    width: 100%;
    
 }
 
@@ -26,6 +27,9 @@ body{
     width: 170px;
     background-color: #000B8C;
 }
+.logo{
+    margin-left: 10px; 
+}
 .brand-title h3{
     text-align: center;
     padding-top: 5px;
@@ -34,6 +38,9 @@ body{
 
 .navbar-links {
     height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .navbar-links ul {
@@ -50,14 +57,36 @@ body{
     display: block;
     text-decoration: none;
     color: black;
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     text-transform: uppercase;
+   
+}
+.edge{
+    padding-top: 0.4rem;  
+}
+.edge a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
-.navbar-links li:hover {
-    background-color: black;
+.navbar-links li:hover, .edge a:hover {
+    background-color: #085BDA;
+    transition: all 1s ease-out;
+    color: white;
+    
 }
 
+.navbar-links li a:hover{
+    color: white;
+}
 .toggle-button {
     position: absolute;
     top: 2;
@@ -69,16 +98,7 @@ body{
     height: 21px;
 }
 .end{
-    display: flex;
-    width: 10%;
-    justify-content: space-around;
-}
-.circle{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: #D9D9D9;
-   
+    margin-right: 14px;
 }
 
 
@@ -150,8 +170,8 @@ footer a{
 
 
 .items{
-display: flex;
-justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 @media only screen and (max-width:540px){
     .navbar {
