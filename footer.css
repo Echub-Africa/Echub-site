@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:ital,wght@0,400;1,300&display=swap');
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    min-height: 270px;
+    /* margin-top: 40px; */
+    
+}
+.brand-title {
+    /* margin-left: 10px; */
+    border: 1px solid black;
+    height: 50px;
+    width: 170px;
+    background-color:  #085BDA ;
+}
+.brand-title h3{
+    text-align: center;
+    padding-bottom: 2px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer a{
+    color: white;
+}
+.foot{
+    display: flex;
+
+
+}
+.foot >div{
+    border-right: 5px solid white;
+    
+   min-height: 270px;
+  
+   
+}
+.foot1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot1 .icons{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.icons{
+    display: flex;
+    color: white;
+}
+.foot2{
+    width: 70%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    /* justify-content: center; */
+    
+}
+.top{
+    padding-left: 30px;
+}
+.foot2 p{
+    padding-top: 20px;
+}
+.search input{
+    height: 43px;
+    width: 50%;
+    /* margin: auto; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search button{
+    width: 90px;
+    height: 43px;
+    background-color: #085BDA;
+    color: white;
+}
+
+
+
+.items{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.items li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+.items h3{
+    font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width:540px){
+  /* FOOTER */
+  footer{
+    min-height: 400px;
+}
+.foot >div{
+border-right: 5px solid white;  
+ min-height: 400px; 
+}
+
+footer .brand-title h3{
+    font-size: 13px;
+}
+footer .brand-title{
+    width: 80%;
+}
+.foot2 p{
+    margin-left: 15px
+}
+.search input{
+    width: 50%;
+    margin-left: 15px;
+    padding-left: 7px;
+    font-size: 19px;
+    
+}
+footer li {
+    font-size: 12px;
+}
+footer li h3{
+    font-size: 14px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+}
+
+
+
+
+}  
+@media only screen and (max-width:412px){
+    .top{
+        padding-left: 2px;
+    }
+    .search button{
+        margin: auto;
+    }
+    .search{
+        display: flex;
+        flex-direction: column;
+    }
+    .search input{
+        width: 80%;
+    }
+}
