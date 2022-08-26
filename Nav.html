@@ -5,40 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- CSS LINK -->
-    <link rel="stylesheet" href="./Nav.css">
-    <!-- FONT AWESOME LINKING -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="./Nav.css">
 </head>
 <body>
-    <!-- NAV BAR -->
-    <nav class="navbar">
-      <div class="bar"> 
-      <div class="logo"><img src="./Images/Logo.png" alt=""></div>
-        <a href="#" class="toggle-button">
-          <i class="fa fa-bars" style="font-size: 33px; color: bl;"></i>
-          </a>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-          <div class="edge">
-          <a href="">Login</a> 
-          <a href="">Join Us</a>
-        </div>
-        </div>
-        <div class="end">
-            <i class="fa fa-bars" style="font-size: 25px; padding-top: 0.5rem;"></i>
-        </div>
+  <div class="navy d-flex bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand text-primary"  href="#" >
+        <img src="./Images/Logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQs</a>
+          </li>
+                  
+        </ul>
+          <button class="px-4 mx-4 blue">Login</button>
+          <button class="px-4 mx-4 blue" type="submit">Join the team</button>
+        
       </div>
-      </nav>       
+    </div>
+  </nav>
+
+  <div class="sidebar">
+    <i class="btn  fa fa-bars fs-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" 
+    aria-controls="offcanvasRight"></i>
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header d-flex flex-column">
+    <img src="./Images/Logo.png" alt="">
+    <h2 class="offcanvas-title" id="offcanvasRightLabel">HIRE TECHNICIANS</h2>
+    <p>For Compaines </p>
+    <p>For Building and construction Project </p>
+    <button class="btn-primary">Hire Now</button>
+    <h3>Join the Team</h3>
+    <p>For Technicians</p>
+    <button class="btn-primary mb-5">Hire Now</button>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
     
-        <!-- JS linking -->
-    <script src="./Nav.js"></script>
+  </div>
+</div>
+
+  </div>
+</div>
+ <script src="./js/bootstrap.min.js"></script>  
 </body>
 </html>
