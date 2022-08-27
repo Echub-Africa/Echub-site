@@ -1,23 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
 .navy{
+    font-family: 'Roboto', sans-serif;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .navbar{
     width: 90%;
 }
-.nav-link{
-    font-size: 22px;
+.nav-link, .navy-btn a{
+    font-size: 21px;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
 }
-.blue{
+.navy-btn{
+    margin-left: 90px;
+    padding-left: 60px;
+}
+.blue, .nav-link{
     transition: all 0.5s ease-in;
+    border: none;
+}
+
+.blue.active{
+background-color: #085BDA;
+border-radius: 15px;
+height: 61px;
+color: white;
 }
 .blue:hover{
-    background-color: #085BDA;
-    color: white;
+background-color: #085BDA;
+color: white;
+border-radius: 15px;
+padding: 0.5rem 2rem 0.5rem 2rem;
+
 }
 .sidebar i{
     margin-top: 10px;
+
+}
+.sidebar button{
+    border-radius: 15px;
+    width: 260px;
 }
 @media only screen and (max-width: 540px){
 .sidebar i{

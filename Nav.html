@@ -20,10 +20,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
+        <ul class="navbar-nav mx-5">
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
           </li>
@@ -41,9 +38,10 @@
           </li>
                   
         </ul>
-          <button class="px-4 mx-4 blue">Login</button>
-          <button class="px-4 mx-4 blue" type="submit">Join the team</button>
-        
+        <div class="navy-btn">
+        <a href="" class="px-4 ms-5 mx-4  blue">Login</a>
+          <a href="" class="px-4 mx-4 pt-3 blue active" type="submit">Join the team</a>
+        </div>  
       </div>
     </div>
   </nav>
@@ -52,16 +50,16 @@
     <i class="btn  fa fa-bars fs-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" 
     aria-controls="offcanvasRight"></i>
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div class="offcanvas-header d-flex flex-column">
-    <img src="./Images/Logo.png" alt="">
+    <button type="button" class="btn-close position-absolute end-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <div class="offcanvas-header d-flex flex-column">
+    <img src="./Images/Logo.png" alt="" class="py-4">
     <h2 class="offcanvas-title" id="offcanvasRightLabel">HIRE TECHNICIANS</h2>
     <p>For Compaines </p>
     <p>For Building and construction Project </p>
-    <button class="btn-primary">Hire Now</button>
+    <button class="btn-primary py-2">Hire Now</button>
     <h3>Join the Team</h3>
     <p>For Technicians</p>
-    <button class="btn-primary mb-5">Hire Now</button>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <button class="btn-primary py-2">Hire Now</button>
   </div>
   <div class="offcanvas-body">
     
