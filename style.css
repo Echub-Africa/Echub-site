@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+h4{
+    font-size: 35px;
+    color: #000B8C;
+    font-weight: 600;
+    margin-top: -2.5rem;
+    animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes beat{
+	to { transform: scale(1.03); }
+}
+
+hr{
+    width: 40%;
+}
+
+.login{
+    width: 100%;
+    height: 100vh;
+}
+
+label{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.row2{
+    width: 70%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    background: #000B8C;
+    border-radius: 2px;
+    margin-top: 30px
+}
+
+p{
+    margin-top: 20px;
+}
+
+.row{
+    width: 30%;
+    height: 100%;
+    background-image: url(./Images/Rectangle\ 12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.PageHold1{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) -14.57%, #1937A4 77.71%);
+    width: 100%;
+    height: 100%;
+}
+
+.forms{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+}
+
+.Name{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.Name label{
+    margin-top: 10px;
+}
+
+.Name input{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    width: 242px;
+    height: 40px;
+    padding: 1rem;
+}
+
+.forms input{
+    height: 40px;
+    width: 900px;
+    padding: 1rem;
+}
+
+.LM{
+    margin-left: 13.5rem;
+}
+
+.btnhold{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
