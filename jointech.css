@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.JTHeroPage{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(180deg,#2757FF 77.57%, #2757FF 77.71%); */
+    /* background: #2757FF; */
+    background: linear-gradient(rgba(255, 255, 255, 0) ,#2757FF);
+}
+
+.JTHeroPageHolder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.JTForm{
+    width: 70%;
+    height: 100%;
+    /* background-color: royalblue; */
+    background: #E5E5E5;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.JTFormHold{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+
+}
+
+.JTFormHolder{
+    width: 100%;
+    height: 80%;
+    /* background: rebeccapurple; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Bg img{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.overlay{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) -14.57%, #2757FF 77.71%);
+    height: 100%;
+}
+
+.Bg{
+    width: 30%;
+    height: 100%;
+    background: url(./Images/pexels-emmanuel-ikwuegbu-8005368\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.JTForm1 h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+}
+
+.JTForm1 input{
+    width: 180px;
+    height: 35px;
+    border: 1px solid #000000;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+    padding: 1rem;
+}
+
+.CheckBox{
+    width: 50%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-left: 9.5rem;
+}
+
+.CheckBox h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.Check button{
+    width: 130px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    background: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 9.5rem;    
+    cursor: pointer;
+}
