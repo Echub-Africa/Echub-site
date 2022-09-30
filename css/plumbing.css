@@ -47,6 +47,20 @@ padding: 0.5rem 2rem 0.5rem 2rem;
 section{
     padding-top: 170px;
 }
+/* section 1 */
+.sec1{
+    background: url(../Images/plumb.png);
+    background-size: cover;
+   min-height: 700px;
+   background-position: center;
+}
+/* bg colors */
+.sec2{
+    background-color: #E7E2D5;
+}
+.sec3{
+    background-color: #E6EBF3;
+}
 /* ABOUT SECTION */
 .main-text small{
     font-weight: 500;
