@@ -298,7 +298,7 @@ footer li h3{
 }
 }
 
-@media only screen and (max-width:412px){
+@media only screen and (max-width:540px){
     .top{
         padding-left: 2px;
     }
@@ -312,4 +312,34 @@ footer li h3{
     .search input{
         width: 80%;
     }
+
+    /* WORKS */
+    .worky{
+    flex-direction: column;
+
+    }
+    .works .texty{
+        width: 90%;
+        margin: auto;
+    }
+    .bar{
+        display: none;
+    }
+
+/* ROAD MAP */
+.road{
+    flex-direction: column;
+    width: 100%;
+}
+.workbar{
+    width: 100%;
+}
+.paw{
+    width: 90%;
+}
+.plan{
+    width: 90%;
+    margin: auto;
+}
+
 }
